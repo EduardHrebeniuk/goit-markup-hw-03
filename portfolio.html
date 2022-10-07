@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,27 +17,27 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
             ><span class="header-web-logo">Web</span>Studio</a
           >
           <ul class="header-list list">
-            <li class="header-item "><a class="header-link current link" href="./index.html">Студія</a></li>
+            <li class="header-item "><a class="header-link link" href="./index.html">Студія</a></li>
             <li class="header-item">
-              <a class="header-link  link" href="./portfolio.html">Портфоліо</a>
+              <a class="header-link current   link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="header-item"><a class="header-link link" href="">Контакти</a></li>
           </ul>
         </nav>
-</div>
-   <div class="container">
-        <ul class="header-list  list">
-          <li>
+<!-- </div> -->
+   <!-- <div class="container"> -->
+        <ul class="header-contact  list">
+          <li class="header-contact-item">
             <a class="header-email link" href="info@devstudio.com"
               >info@devstudio.com</a>
           </li>
-          <li><a class="header-tel link" href="tel:+380961111111"
+          <li class="header-contact-item"><a class="header-tel link" href="tel:+380961111111"
               >+38 096 111 11 11</a>
           </li>
         </ul>
@@ -47,7 +48,7 @@
       <!-- Приховати заголовок h1 -->
 
         <section class="portfolio section">
-          <div class="container">
+          <div class="container portfolio-container">
           <h1 class="visually-hidden">Портфоліо робіт</h1>
           <ul class="portfolio-list-btn list">
             <li class="portfolio-item"><button class="portfolio-btn" type="button">Усі</button></li>
@@ -66,8 +67,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Технокряк</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Технокряк</h2>
               <p class="portfolio-content">Веб-сайт</p>
+              </div>
             </a>
               
             </li>
@@ -79,8 +81,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
               <p class="portfolio-content">Дизайн</p>
+              </div>
             </a>
             
             </li>
@@ -92,8 +95,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Ресторан Seafood</h2>
               <p class="portfolio-content">Додаток</p>
+              </div>
               </a>
               
             </li>
@@ -105,8 +109,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Проєкт Prime</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Проєкт Prime</h2>
               <p class="portfolio-content">Маркетинг</p>
+              </div>
               </a>
               
             </li>
@@ -118,8 +123,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Проєкт Boxes</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Проєкт Boxes</h2>
               <p class="portfolio-content">Додаток</p>
+              </div>
               </a>
               
             </li>
@@ -131,8 +137,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Inspiration has no Borders</h2>
               <p class="portfolio-content">Веб-сайт</p>
+              </div>
               </a>
             
             </li>
@@ -144,8 +151,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Видання Limited Edition</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Видання Limited Edition</h2>
               <p class="portfolio-content">Дизайн</p>
+              </div>
               </a>
             
             </li>
@@ -157,8 +165,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Проєкт LAB</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Проєкт LAB</h2>
               <p class="portfolio-content">Маркетинг</p>
+              </div>
               </a>
               
             </li>
@@ -170,8 +179,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-title">Growing Business</h2>
+              <div class="portfolio-name"><h2 class="portfolio-title">Growing Business</h2>
               <p class="portfolio-content">Додаток</p>
+              </div>
               </a>
             
             </li>

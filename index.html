@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
             ><span class="header-web-logo">Web</span>Studio</a
@@ -31,14 +31,14 @@
             <li class="header-item"><a class="header-link link" href="">Контакти</a></li>
           </ul>
         </nav>
-</div>
-   <div class="container">
-        <ul class="header-list  list">
-          <li>
+<!-- </div> -->
+   <!-- <div class="container"> -->
+        <ul class="header-contact  list">
+          <li class="header-contact-item">
             <a class="header-email link" href="info@devstudio.com"
               >info@devstudio.com</a>
           </li>
-          <li><a class="header-tel link" href="tel:+380961111111"
+          <li class="header-contact-item"><a class="header-tel link" href="tel:+380961111111"
               >+38 096 111 11 11</a>
           </li>
         </ul>
@@ -49,7 +49,7 @@
       <!-- "Герой" -->
 
         <section class="hero section">
-          <div class="container">
+          <div class="container hero-container">
             <h1 class="hero-title">Ефективні рішення для </br> вашого бізнесу</h1>
             <button class="hero-button" type="button" >Замовити послугу</button>
             </div>
@@ -57,7 +57,7 @@
 
       <!--  Futures -->
       <section class="futures section">
-        <div class="container">
+        <div class="container futures-container">
           <!--   Не забути сховати заголовок в Css -->
           <h2 class="visually-hidden">Особливості</h2>
           <ul class="futures-list list" >
@@ -93,28 +93,34 @@
       </section>
       <!-- Types work -->
       <section class="work section">
-       <div class="container">
+      <div class="container work-container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-item">
-              <img src="./images/photo1.jpg" alt="Верстка сайтів" width="370" />
+              <img 
+              src="./images/photo1.jpg" 
+              alt="Верстка сайтів" 
+              width="370" 
+              height="294" />
             </li>
             <li class="work-item">
               <img 
                 src="./images/photo2.jpg"
                 alt="Адаптивна верстка"
-                width="370"
+                width="370" 
+                height="294"
               />
             </li>
             <li class="work-item">
-              <img src="./images/photo3.jpg" alt="Дизайн сайтів" width="370" />
+              <img src="./images/photo3.jpg" alt="Дизайн сайтів" width="370" 
+              height="294" />
             </li>
           </ul>
-       </div>
+      </div>
       </section>
       <!--Team -->
-      <section class="team">
-        <div class="container">
+      <section class="team section">
+        <div class="container team-container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list" >
             <li class="team-item">
@@ -123,8 +129,10 @@
                 alt=" Фото продукт дизайнера Ігора Дем'яненка "
                 width="270"
               />
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="team-vacancy" lang="en">Product Designer</p>
+            <div class="team-box-name">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-vacancy" lang="en">Product Designer</p>
+            </div>
             </li>
             <li class="team-item">
               <img
@@ -132,8 +140,10 @@
                 alt="Фото розробника Ольги Рєпіної "
                 width="270"
               />
-              <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="team-vacancy" lang="en">Frontend Developer</p>
+            <div class="team-box-name">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-vacancy" lang="en">Frontend Developer</p>
+            </div>
             </li>
             <li class="team-item">
               <img
@@ -141,8 +151,10 @@
                 alt="Фото маркутолога Миколи Тарасова "
                 width="270"
               />
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-vacancy" lang="en">Marketing</p>
+              <div class="team-box-name">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-vacancy" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -150,8 +162,10 @@
                 alt="Фото дизайнера Михайла Єрмакова "
                 width="270"
               />
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-vacancy" lang="en">UI Designer</p>
+             <div class="team-box-name">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-vacancy" lang="en">UI Designer</p>
+             </div>
             </li>
           </ul>
           </div>
