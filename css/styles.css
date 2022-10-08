@@ -141,8 +141,7 @@ display: block;
   display: flex; 
   gap: 50px;
   margin-left: auto;
-  padding-top: 32px;
-padding-bottom: 32px;
+
 
 }
 .header-contact-item {
@@ -157,6 +156,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--text-color);
 display: block;
+  padding-top: 32px;
+padding-bottom: 32px;
 
 }
 .header-email:hover, .header-email:focus
