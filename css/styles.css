@@ -193,6 +193,9 @@ justify-content: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color:var(--background-color);
+  max-width: 696px;
+  margin: 0 auto;
+  text-align: center;
   margin-bottom: 30px;
 
 }
@@ -325,6 +328,7 @@ background-color: var(--team-background-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 
 }
 .team-vacancy {
@@ -371,8 +375,9 @@ background-color: var(--team-background-color);
 }
 .footer-list {
 }
-.footer-item {
+.footer-item:not(:last-child){
   margin-bottom: 9px;
+
 }
 .footer-email,
 .footer-tel {
